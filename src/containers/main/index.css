@@ -1,0 +1,110 @@
+.container_main {
+    background-color: #393d45;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+.title {
+    font-size: 34px;
+    color: white;
+    margin: 0;
+    display: flex;
+    text-shadow: 3px 3px 6px black;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 15px;
+    width: 44px;
+}
+
+.content_search {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow:3px 3px 6px black;
+    border-radius: 8px;
+}
+.search {
+    border: none;
+    outline: none;
+    width: 500px;
+    height: 50px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 18px;
+}
+.btn_search {
+    height: 50px;
+    width: 100px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    background-color: rgba(0,123,255, 1);
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 1s;
+    font-weight: 500;
+}
+
+.btn_search:hover {
+    background-color: rgba(0,123,255, .7);
+}
+
+.content_result {
+    height: 350px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: -60px;
+}
+
+.item {
+    width: 180px;
+    height: 25px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all .5s;
+    margin: 5px 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.item:hover {
+    font-size: 19px;
+    color: rgba(0,123,255, 1);
+
+}
+
+.item:hover .point {
+    width: 8px;
+    height: 8px;
+}
+
+.point {
+    width: 7px;
+    transition: all .5s;
+    height: 7px;
+    border-radius: 50%;
+    background-color: green;
+    box-shadow: 1px 1px 3px black;
+    margin-right: 7px;
+}
