@@ -1,4 +1,11 @@
 {
+  
+  "nombre" : "hostinger-react" ,
+  "página de inicio" : "http://testing.afm93.com/" ,
+  "versión" : "1.0.0" ,
+  "descripción" : "ReactJs_search_github" ,
+
+
   "name": "proyect-u",
   "version": "0.1.0",
   "private": true,
