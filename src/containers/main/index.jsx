@@ -54,7 +54,7 @@ export default function MainContainer() {
                     </a>
                 </h1>
                 <form onSubmit={(e) => handleSubmit(e)} className={'content_search'}>
-                    <input onChange={(e) => setQuery(e.target.value)} type={'search'} className={'search'} placeholder={'Busca entre mas de 91M de usuarios'} />
+                    <input onChange={(e) => setQuery(e.target.value)} type={'search'} className={'search'} placeholder={'Busca entre mas de 80M de usuarios'} />
                     <button type={'submit'} className={'btn_search'}> Buscar </button>
                 </form>
                 {
